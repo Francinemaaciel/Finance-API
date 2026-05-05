@@ -13,18 +13,6 @@ API REST de controle financeiro pessoal desenvolvida em Go.
 - **bcrypt** — criptografia de senhas
 - **AwesomeAPI** — cotação do dólar em tempo real
 
-## 📁 Arquitetura
-finance-api/
-├── cmd/              # ponto de entrada
-├── config/           # conexão com banco
-├── internal/
-│   ├── handler/      # recebe requisições HTTP
-│   ├── service/      # regras de negócio
-│   ├── repository/   # acesso ao banco
-│   ├── middleware/   # autenticação JWT
-│   └── model/        # structs
-└── migrations/       # versionamento do banco
-
 ## ⚙️ Como rodar
 
 1. Clone o repositório
